@@ -59,6 +59,7 @@ app.get("/api/waitlist", function (req, res) {
 
 app.post("/api/tables", function (req, res) {
     const newRes = req.body;
+    console.log("new reso: ", newRes);
 
     if (tables.length < 5) {
         tables.push(newRes);
