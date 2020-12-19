@@ -17,11 +17,7 @@ app.use(express.json());
 // 
 
 // API Table List
-let tables = [
-    {
-
-    }
-];
+let tables = [];
 
 let waitlist = [];
 
