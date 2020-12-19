@@ -6,7 +6,7 @@ const path = require("path");
 
 // EXPRESS CONFIGURATION
 // =============================================================
-const app = express();
+const app = express()
 // This sets up the basic properties of our express server
 const PORT = process.env.PORT || 3001;
 
